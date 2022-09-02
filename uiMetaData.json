@@ -1,0 +1,747 @@
+{
+  "name": "Advance-conn",
+  "connectorType": "",
+  "userId": null,
+  "domoClientId": "",
+  "domoClientSecret": "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",
+  "additionalInfo": "",
+  "reportLength": 3,
+  "days": 7,
+  "reports": [
+    "me",
+    "me.education",
+    "me.work"
+  ],
+  "advancedReports": null,
+  "guid": "39e30f4b-6254-4439-ba26-8e14c0d5aaad",
+  "publishPrivate": true,
+  "visibilityType": {
+    "label": "Private to your company",
+    "value": "private"
+  },
+  "parameters": [
+    {
+      "name": "name",
+      "type": "string",
+      "required": false,
+      "order": -1,
+      "options": [],
+      "command": {
+        "name": "hhh",
+        "code": null,
+        "type": "dropdown"
+      },
+      "helpText": null,
+      "showWhen": "",
+      "value": null,
+      "dateSelectorValue": null,
+      "$$hashKey": "object:622"
+    },
+    {
+      "name": "rol",
+      "type": "integer",
+      "required": false,
+      "order": 0,
+      "options": [],
+      "command": null,
+      "helpText": null,
+      "showWhen": "",
+      "value": null,
+      "dateSelectorValue": null,
+      "$$hashKey": "object:623"
+    },
+    {
+      "name": "date",
+      "type": "dateSelector",
+      "required": false,
+      "order": 1,
+      "options": [],
+      "command": null,
+      "helpText": null,
+      "showWhen": "",
+      "value": null,
+      "dateSelectorValue": null,
+      "$$hashKey": "object:624"
+    }
+  ],
+  "commands": null,
+  "showAdvanced": true,
+  "submittedVersion": 33,
+  "submittedMajorVersion": 0,
+  "publishedVersion": 0,
+  "workbenchEnabled": false,
+  "dataProviderCreated": false,
+  "description": null,
+  "tags": null,
+  "successResponseDefinition": null,
+  "errorResponseDefinition": null,
+  "updateCode": false,
+  "requestingCustomerId": null,
+  "ownerId": null,
+  "ownerCustomerId": null,
+  "parentGuid": "6cbd6851-4613-40eb-a9cf-e33f314f6b6c",
+  "testingProfiles": [
+    {
+      "name": "firsttest",
+      "value": [
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "order": -1,
+          "options": [],
+          "command": {
+            "name": "hhh",
+            "code": null,
+            "type": "dropdown"
+          },
+          "helpText": null,
+          "showWhen": "",
+          "value": "first",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "rol",
+          "type": "integer",
+          "required": false,
+          "order": 0,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": "1",
+          "dateSelectorValue": null
+        }
+      ]
+    },
+    {
+      "name": "secondtest",
+      "value": [
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "order": -1,
+          "options": [],
+          "command": {
+            "name": "hhh",
+            "code": null,
+            "type": "dropdown"
+          },
+          "helpText": null,
+          "showWhen": "",
+          "value": "second",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "rol",
+          "type": "integer",
+          "required": false,
+          "order": 0,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": "2",
+          "dateSelectorValue": null
+        }
+      ]
+    },
+    {
+      "name": "thirdtest",
+      "value": [
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "order": -1,
+          "options": [],
+          "command": {
+            "name": "hhh",
+            "code": null,
+            "type": "dropdown"
+          },
+          "helpText": null,
+          "showWhen": "",
+          "value": "third",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "rol",
+          "type": "integer",
+          "required": false,
+          "order": 0,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": "3",
+          "dateSelectorValue": null
+        }
+      ]
+    },
+    {
+      "name": "fourtest",
+      "value": [
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "order": -1,
+          "options": [],
+          "command": {
+            "name": "hhh",
+            "code": null,
+            "type": "dropdown"
+          },
+          "helpText": null,
+          "showWhen": "",
+          "value": "four",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "rol",
+          "type": "integer",
+          "required": false,
+          "order": 0,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": "4",
+          "dateSelectorValue": null
+        }
+      ]
+    },
+    {
+      "name": "fivetest",
+      "value": [
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "order": -1,
+          "options": [],
+          "command": {
+            "name": "hhh",
+            "code": null,
+            "type": "dropdown"
+          },
+          "helpText": null,
+          "showWhen": "",
+          "value": "five",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "rol",
+          "type": "integer",
+          "required": false,
+          "order": 0,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": "5",
+          "dateSelectorValue": null
+        }
+      ]
+    },
+    {
+      "name": "sixtest",
+      "value": [
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "order": -1,
+          "options": [],
+          "command": {
+            "name": "hhh",
+            "code": null,
+            "type": "dropdown"
+          },
+          "helpText": null,
+          "showWhen": "",
+          "value": "six",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "rol",
+          "type": "integer",
+          "required": false,
+          "order": 0,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": "6",
+          "dateSelectorValue": null
+        }
+      ]
+    },
+    {
+      "name": "seventest",
+      "value": [
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "order": -1,
+          "options": [],
+          "command": {
+            "name": "hhh",
+            "code": null,
+            "type": "dropdown"
+          },
+          "helpText": null,
+          "showWhen": "",
+          "value": "seven",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "rol",
+          "type": "integer",
+          "required": false,
+          "order": 0,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": "7",
+          "dateSelectorValue": null
+        }
+      ]
+    },
+    {
+      "name": "eighttest",
+      "value": [
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "order": -1,
+          "options": [],
+          "command": {
+            "name": "hhh",
+            "code": null,
+            "type": "dropdown"
+          },
+          "helpText": null,
+          "showWhen": "",
+          "value": "eight",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "rol",
+          "type": "integer",
+          "required": false,
+          "order": 0,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": "8",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "date",
+          "type": "dateSelector",
+          "required": false,
+          "order": 1,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": null,
+          "dateSelectorValue": {
+            "date": "specific",
+            "dateFrom": "relative",
+            "dateFromOffset": 1,
+            "dateFromPicker": "0",
+            "dateOffset": 1,
+            "datePicker": null,
+            "dateTo": "relative",
+            "dateToOffset": 0,
+            "dateToPicker": null,
+            "dateType": "single_date",
+            "period": "currentWeek",
+            "timePeriod": "currentWeek",
+            "weekStartDay": "sunday"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ninetest",
+      "value": [
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "order": -1,
+          "options": [],
+          "command": {
+            "name": "hhh",
+            "code": null,
+            "type": "dropdown"
+          },
+          "helpText": null,
+          "showWhen": "",
+          "value": "nine",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "rol",
+          "type": "integer",
+          "required": false,
+          "order": 0,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": "9",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "date",
+          "type": "dateSelector",
+          "required": false,
+          "order": 1,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": null,
+          "dateSelectorValue": null
+        }
+      ]
+    },
+    {
+      "name": "tentest",
+      "value": [
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "order": -1,
+          "options": [],
+          "command": {
+            "name": "hhh",
+            "code": null,
+            "type": "dropdown"
+          },
+          "helpText": null,
+          "showWhen": "",
+          "value": "ten",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "rol",
+          "type": "integer",
+          "required": false,
+          "order": 0,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": "10",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "date",
+          "type": "dateSelector",
+          "required": false,
+          "order": 1,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": null,
+          "dateSelectorValue": {
+            "date": "relative",
+            "dateFrom": "relative",
+            "dateFromOffset": 7,
+            "dateFromPicker": "0",
+            "dateOffset": 1,
+            "datePicker": null,
+            "dateTo": "relative",
+            "dateToOffset": 1,
+            "dateToPicker": null,
+            "dateType": "time_period",
+            "period": "currentWeek",
+            "timePeriod": "currentWeek",
+            "weekStartDay": "sunday"
+          }
+        }
+      ]
+    },
+    {
+      "name": "eleventest",
+      "value": [
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "order": -1,
+          "options": [],
+          "command": {
+            "name": "hhh",
+            "code": null,
+            "type": "dropdown"
+          },
+          "helpText": null,
+          "showWhen": "",
+          "value": "eleven",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "rol",
+          "type": "integer",
+          "required": false,
+          "order": 0,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": "11",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "date",
+          "type": "dateSelector",
+          "required": false,
+          "order": 1,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": null,
+          "dateSelectorValue": {
+            "date": "relative",
+            "dateFrom": "relative",
+            "dateFromOffset": 7,
+            "dateFromPicker": "0",
+            "dateOffset": 1,
+            "datePicker": null,
+            "dateTo": "relative",
+            "dateToOffset": 1,
+            "dateToPicker": null,
+            "dateType": "time_period",
+            "period": "currentWeek",
+            "timePeriod": "currentWeek",
+            "weekStartDay": "sunday"
+          }
+        }
+      ]
+    },
+    {
+      "name": "twelvetest",
+      "value": [
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "order": -1,
+          "options": [],
+          "command": {
+            "name": "hhh",
+            "code": null,
+            "type": "dropdown"
+          },
+          "helpText": null,
+          "showWhen": "",
+          "value": "twelve",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "rol",
+          "type": "integer",
+          "required": false,
+          "order": 0,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": "12",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "date",
+          "type": "dateSelector",
+          "required": false,
+          "order": 1,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": null,
+          "dateSelectorValue": {
+            "date": "specific",
+            "dateFrom": "relative",
+            "dateFromOffset": 1,
+            "dateFromPicker": "0",
+            "dateOffset": 1,
+            "datePicker": null,
+            "dateTo": "relative",
+            "dateToOffset": 0,
+            "dateToPicker": null,
+            "dateType": "single_date",
+            "period": "currentWeek",
+            "timePeriod": "currentWeek",
+            "weekStartDay": "sunday"
+          }
+        }
+      ]
+    },
+    {
+      "name": "thirteentest",
+      "value": [
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "order": -1,
+          "options": [],
+          "command": {
+            "name": "hhh",
+            "code": null,
+            "type": "dropdown"
+          },
+          "helpText": null,
+          "showWhen": "",
+          "value": "thirteen",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "rol",
+          "type": "integer",
+          "required": false,
+          "order": 0,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": "13",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "date",
+          "type": "dateSelector",
+          "required": false,
+          "order": 1,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": null,
+          "dateSelectorValue": {
+            "date": "specific",
+            "dateFrom": "relative",
+            "dateFromOffset": 1,
+            "dateFromPicker": "0",
+            "dateOffset": 1,
+            "datePicker": "2021-11-30T12:29:06.989Z",
+            "dateTo": "relative",
+            "dateToOffset": 0,
+            "dateToPicker": null,
+            "dateType": "single_date",
+            "period": "currentWeek",
+            "timePeriod": "currentWeek",
+            "weekStartDay": "sunday"
+          }
+        }
+      ]
+    },
+    {
+      "name": "test14",
+      "value": [
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "order": -1,
+          "options": [],
+          "command": {
+            "name": "hhh",
+            "code": null,
+            "type": "dropdown"
+          },
+          "helpText": null,
+          "showWhen": "",
+          "value": "14",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "rol",
+          "type": "integer",
+          "required": false,
+          "order": 0,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": "14",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "date",
+          "type": "dateSelector",
+          "required": false,
+          "order": 1,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": null,
+          "dateSelectorValue": null
+        }
+      ]
+    },
+    {
+      "name": "test15",
+      "value": [
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "order": -1,
+          "options": [],
+          "command": {
+            "name": "hhh",
+            "code": null,
+            "type": "dropdown"
+          },
+          "helpText": null,
+          "showWhen": "",
+          "value": "test15",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "rol",
+          "type": "integer",
+          "required": false,
+          "order": 0,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": "15",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "date",
+          "type": "dateSelector",
+          "required": false,
+          "order": 1,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": null,
+          "dateSelectorValue": null
+        }
+      ]
+    }
+  ],
+  "visible": true
+}

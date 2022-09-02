@@ -65,7 +65,7 @@
       "showWhen": "",
       "value": null,
       "dateSelectorValue": null,
-      "$$hashKey": "object:622"
+      "$$hashKey": "object:217"
     },
     {
       "name": "rol",
@@ -78,7 +78,7 @@
       "showWhen": "",
       "value": null,
       "dateSelectorValue": null,
-      "$$hashKey": "object:623"
+      "$$hashKey": "object:218"
     },
     {
       "name": "date",
@@ -91,7 +91,7 @@
       "showWhen": "",
       "value": null,
       "dateSelectorValue": null,
-      "$$hashKey": "object:624"
+      "$$hashKey": "object:219"
     }
   ],
   "commands": null,
@@ -783,9 +783,9 @@
   "repository": null,
   "visible": true,
   "validImages": [
+    "iconWithoutBackground",
     "iconWithBackground",
     "logoWithBackground",
-    "iconWithoutBackground",
     "logoWithoutBackground"
   ]
 }
